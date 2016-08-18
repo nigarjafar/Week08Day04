@@ -60,10 +60,10 @@
 		}
 
 		.msg{
-			margin: 5px a
-			width:380px;
+			margin: 5px auto;
+			width:280px;
 			background: #ffb2b2;
-			padding:10px 11px;
+			padding:10px 10px;
 		}
 
 

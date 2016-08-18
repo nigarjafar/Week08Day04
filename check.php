@@ -15,7 +15,7 @@ if($submit){
 		}
 		else if($email=="admin@code.edu.az"&& $password!="12345")
 		{
-			$_SESSION['error']="Parol sehvdi";
+			$_SESSION['error']="Shifre sehvdi";
 			header('Location:index.php');
 		}
 		else{
@@ -25,7 +25,7 @@ if($submit){
 
 	}
 	else{
-	$_SESSION['error']="Email ve parolunuzun her ikisini daxil edin";
+	$_SESSION['error']="Email ve shifrenizi daxil edin";
 	header('Location:index.php');
 	}
 
